@@ -17,7 +17,7 @@ This plugin comes in handle when you want to:
 
 ```javascript
 //inside main.js
-import vStyler from 'vstyle'
+import vStyler from 'vstyler'
 
 Vue.use(vStyler)
 
