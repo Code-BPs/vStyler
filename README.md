@@ -27,12 +27,12 @@ Vue.use(vStyler)
 
 Now you can use vStyler anywhere in your vue components. Simple do:
 
-`<v-style>...</v-style>` where `...` is your styling.
+`<v-styler>...</v-styler>` where `...` is your styling.
 
 Example:
 ```html
 <template>
-    <v-style>{{updateClass}}</v-style>
+    <v-styler>{{updateClass}}</v-styler>
 </template>
 
 <script>
@@ -76,7 +76,7 @@ You can do more, the Vue way:
 
 ```html
 <template>
-    <v-style>
+    <v-styler>
         .myDynamicClass {
             backgroundColor: '{{dynamicColor}}';
             {{heightORWidth}}: '100%';
@@ -84,7 +84,7 @@ You can do more, the Vue way:
         {{CSS3Selector}} { /* card > * */
             color: white;
         }
-    </v-style>
+    </v-styler>
 </template>
 ```
 
