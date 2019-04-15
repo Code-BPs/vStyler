@@ -78,7 +78,7 @@ You can do more, the Vue way:
 <template>
     <v-styler>
         .myDynamicClass {
-            backgroundColor: '{{dynamicColor}}';
+            backgroundColor: {{dynamicColor}};
             {{heightORWidth}}: '100%';
         }
         {{CSS3Selector}} { /* card > * */
