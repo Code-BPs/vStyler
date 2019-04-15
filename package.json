@@ -1,0 +1,24 @@
+{
+  "name": "vstyler",
+  "version": "0.0.1",
+  "description": "Dynamic styling with <style> tags the Vuejs way",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/code-bps/vstyler.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "style"
+  ],
+  "author": "Dzivenu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-bps/vstyler/issues"
+  },
+  "homepage": "https://github.com/code-bps/vstyler#readme"
+}
